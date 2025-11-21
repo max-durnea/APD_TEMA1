@@ -4,7 +4,7 @@ build:
 	javac -d out src/Tema1/*.java
 
 run: build
-	java -cp out Tema1.Main $(ARGS)
+	java -cp out Main $(ARGS)
 
 check: build
 	bash checker/checker.sh
